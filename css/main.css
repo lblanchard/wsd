@@ -1,0 +1,111 @@
+body {
+	font-family:Arial, sans serif;
+	font-size: 14px;
+	line-height: 1.5;
+	width:800px;
+	margin: 0 auto;
+	background-color: #DCA577;
+}
+
+img {
+	float: left;
+}
+
+h1 {
+	font-family:georgia,serif;
+	text-shadow: 2px 2px #666;
+	text-align: center;
+}
+
+.list1 {
+	list-style-type: none;
+	text-align: center;
+	clear: left;
+}
+
+.check {
+	background-color:#976136;
+	border-width:3px;
+	border-style:solid;
+	border-color: #7C4D27;
+	padding:5px;
+}
+
+a:link {
+	color:green;
+}
+a:visited {
+	color:red;
+}
+a:hover {
+	color:black;
+}
+a:active {
+	color:blue;
+}
+
+.pay {
+        -moz-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fbb450), color-stop(1, #f89306));
+        background:-moz-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-webkit-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-o-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-ms-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:linear-gradient(to bottom, #fbb450 5%, #f89306 100%);
+
+        
+        background-color:#fbb450;
+        
+        -moz-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;
+        
+        border:1px solid #b88235;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Trebuchet MS;
+        font-size:17px;
+        font-weight:bold;
+        padding:6px 11px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #8f7f24;
+        
+    }
+    .pay:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f89306), color-stop(1, #fbb450));
+        background:-moz-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-webkit-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-o-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-ms-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:linear-gradient(to bottom, #f89306 5%, #fbb450 100%);
+
+        
+        background-color:#f89306;
+    }
+    .pay:active {
+        position:relative;
+        top:1px;
+    }
+
+.pics{
+	border: 1px dashed #976136;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.pics1 {
+	float: left;
+	margin-left: 30px;
+}
+
+.col {
+	-moz-column-count: 3;
+	column-gap: 25px;
+}
