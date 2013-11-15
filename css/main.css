@@ -1,8 +1,8 @@
 body {
-	font-family: ariel, sans-serif;
-	font-size: 100%;
+	font-family:Arial, sans serif;
+	font-size: 14px;
 	line-height: 1.5;
-	width:960px;
+	width:800px;
 	margin: 0 auto;
 	background-color: #DCA577;
 }
@@ -12,7 +12,7 @@ img {
 }
 
 h1 {
-	font-family: 'Days One', sans-serif;
+	font-family:georgia,serif;
 	text-shadow: 2px 2px #666;
 	text-align: center;
 }
@@ -23,23 +23,13 @@ h1 {
 	clear: left;
 }
 
-.col {
-	-moz-column-count: 3;
-	column-gap: 25px; 
-	width: 88.541667%;
-	margin: 0 auto;
-}
-
 .check {
 	background-color:#976136;
-	width: 800px;
 	border-width:3px;
 	border-style:solid;
 	border-color: #7C4D27;
 	padding:5px;
 }
-
-section {width: 83.333333%;}
 
 a:link {
 	color:green;
@@ -115,12 +105,7 @@ a:active {
 	margin-left: 30px;
 }
 
-img {max-width: 100%} 
-
-@media screen and (min-width: 768px) and (max-width: 969px)
-
-@media screen and (min-width: 480px) and (max-width: 767px)
-
-@media screen and (max-width: 479px) {
-img {display: none;}
-.pics1 {display: none;}
+.col {
+	-moz-column-count: 3;
+	column-gap: 25px;
+}
